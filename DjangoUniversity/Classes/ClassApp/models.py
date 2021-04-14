@@ -13,14 +13,8 @@ class djangoClasses(models.Model):
    def __str__(self):
       return self.title
 
-# this is the student names and grade level
-class studentNames(models.Model):
-   first_name = models.CharField(max_length=30, default="")
-   last_name = models.CharField(max_length=30, default="")
-   grade = models.IntegerField(max_length=12, default="")
 
 
 
-class schedule(models.Model):
-   weekdays = models.CharField(max_length=30, default="")
-   time = models.IntegerField(max_length=30, default="")
+
+
