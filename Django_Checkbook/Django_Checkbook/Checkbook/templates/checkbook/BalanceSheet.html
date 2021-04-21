@@ -5,9 +5,11 @@
 				<form> 
 					<br>
 					<!-- Use value to add the Django populated details-->
-					<label>Account Holder:</label><input id="accountholder" type="text" name="accountHolder" value="{{ account }}" readonly><br><br>
-					<label>Current Balance:</label><input id="balance" type="text" name="currentBalance" value="{{ balance }}" readonly>
-					<!-- Add link to href to make this button work -->
+					<label>Account Holder:</label>
+					<input id="accountholder" type="text" name="accountHolder" value="{{ account }}" readonly>
+					<br><br>
+					<label>Current Balance:</label>
+					<input id="balance" type="text" name="currentBalance" value="{{ balance }}" readonly>
 					<button type="button"><a href="{% url 'transaction' %}">Add Transaction+</a></button>
 				</form>
 				<br><br>
@@ -34,6 +36,6 @@
 				{% endfor %}
 			</table>
 
-			<br><br>			
+			<br><br>
 {% endblock %}
 

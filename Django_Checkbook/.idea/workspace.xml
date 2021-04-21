@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47363b9c-c8dc-486f-9764-d1a16fb40510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/migrations/0002_alter_transaction_managers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_Checkbook/Checkbook/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_Checkbook/Checkbook/templates/checkbook/AddTransaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/templates/checkbook/AddTransaction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_Checkbook/Checkbook/templates/checkbook/BalanceSheet.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/templates/checkbook/BalanceSheet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_Checkbook/Checkbook/templates/checkbook/CreateNewAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/templates/checkbook/CreateNewAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_Checkbook/Checkbook/templates/checkbook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/templates/checkbook/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_Checkbook/Checkbook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_Checkbook/Checkbook/templates/checkbook_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/templates/checkbook_base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_Checkbook/Checkbook/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Checkbook/Checkbook/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_Checkbook/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Checkbook/db.sqlite3" afterDir="false" />
     </list>

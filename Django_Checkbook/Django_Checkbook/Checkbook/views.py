@@ -19,10 +19,10 @@ def create_account(request):
             form.save()
             return redirect('index')
     content = {'form': form}
-    return render(request, 'checkbook/CreateNewAccount.html')
+    return render(request, 'checkbook/CreateNewAccount.html', content)
 
 
-def balance(request):
+def balance(request, pk):
     account = get_object_or_404(Account, pk=pk)
     transactions = Transaction.Transactions.filter(account=pk)
     current_total = account.initial_deposit
@@ -46,4 +46,4 @@ def transaction(request):
             form.save()
             return balance(request, pk)
     content = {'form': form}
-    return render(request, 'checkbook/AddTransaction.html')
+    return render(request, 'checkbook/AddTransaction.html', content)
